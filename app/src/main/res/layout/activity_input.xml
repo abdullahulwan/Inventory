@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/tema"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="-100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"> <!-- design background -->
+
+        <EditText
+            android:id="@+id/ed_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nama_barang"
+            android:layout_marginTop="20dp"/> <!-- untuk membuat form nama barang -->
+        <EditText
+            android:id="@+id/ed_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_stock_barang"
+            android:layout_marginTop="20dp"
+            android:inputType="number"/> <!-- untuk membuat form stock -->
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/tema"
+            android:text="@string/simpan"/>
+        <!-- untuk membuat button SIMPAN -->
+
+    </LinearLayout>
+
+</LinearLayout>

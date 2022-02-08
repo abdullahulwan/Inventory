@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="welcome">welcome To Inventory</string>
+    <string name="hint_nama_barang">Nama Barang</string>
+    <string name="hint_stock_barang">Stock Barang</string>
+    <string name="simpan">SIMPAN</string>
+</resources>
